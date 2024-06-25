@@ -1,0 +1,72 @@
+h2 a {
+    color: #dc143c;
+}
+
+.heading {
+    background-color: #24292f;
+    color: #ffffff;
+    /*max-width: 90%; */
+    padding: 22px 0px 8px 71px;
+}
+
+.content {
+    clear: both;
+    padding: 20px 20px 20px 20px;
+}
+
+.NavBar {
+    /*padding-left: 92px;*/
+    max-width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    background-color: #24292f;
+}
+
+.texts {
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #24292f;
+  }
+
+li {
+    float: left;
+}
+
+li a{
+    font-size: 20px;
+    color: white;
+    padding: 20px 40px 20px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.newPost{
+    background-color: white;
+}
+.newPost:hover{
+    background-color: rgb(252, 246, 246);
+}
+
+li a:hover{
+    color: #dc143c;
+}
+
+.homegrid{
+    display: grid;
+    grid-template-columns: auto 20;
+    gap: 100px;
+}
+
+
+/* CSS file won't get updated without a hard reload on firefox.*/
